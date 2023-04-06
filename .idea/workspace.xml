@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b872ce2-4d43-4fe9-85e6-f1310087279c" name="Changes" comment="# 도서관리 프로그램 1 - 마이페이지 기능">
+    <list default="true" id="6b872ce2-4d43-4fe9-85e6-f1310087279c" name="Changes" comment="# 도서관리 프로그램 2 - 전체조회, 검색">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day08/poly/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/poly/book/CartoonBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/CartoonBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/poly/book/CookBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/CookBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day08/poly/book/LibraryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/LibraryRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/day08/poly/book/LibraryView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/LibraryView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/poly/book/Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/book/Run.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -61,14 +58,15 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/java_study_04-master&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.색 구성표 글꼴&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/user/Desktop/java_study_04-master",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.색 구성표 글꼴"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="day08.poly" />
@@ -279,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680673365587</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="# 도서관리 프로그램 2 - 전체조회, 검색">
+      <created>1680677452040</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1680677452040</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,7 +315,8 @@
     <MESSAGE value="# lotto simulator" />
     <MESSAGE value="# 다형성 1" />
     <MESSAGE value="# 도서관리 프로그램 1 - 마이페이지 기능" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 도서관리 프로그램 1 - 마이페이지 기능" />
+    <MESSAGE value="# 도서관리 프로그램 2 - 전체조회, 검색" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 도서관리 프로그램 2 - 전체조회, 검색" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -6,6 +6,8 @@ public class Book {
     private String author; // 저자명
     private String publisher; // 출판사명
 
+    // 대여상태
+
     public Book() {}
 
     public Book(String title, String author, String publisher) {

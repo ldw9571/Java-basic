@@ -2,6 +2,8 @@ package day08.poly.book;
 
 import day04.array.StringList;
 
+import static day08.poly.book.RentStatus.*;
+
 // 도서관리 시스템 데이터 처리
 public class LibraryRepository {
 
@@ -58,6 +60,34 @@ public class LibraryRepository {
             }
         }
         return list.getsArr();
+    }
+
+    // 도서 대여 처리
+    public RentStatus rentBook(int rentNum) {
+        // 대여를 원하는 책 추출
+        Book wishBook = bookList[rentNum - 1];
+
+        // 책의 분류에 따라 다른 처리
+        if (wishBook instanceof CookBook) {
+            CookBook cookBook = (CookBook) wishBook;
+            // 쿠폰 유무를 확인
+            if (cookBook.isCoupon()) {
+                bookUser.setCouponCount(bookUser.getCouponCount()+1);
+                return RENT_SUCCESS_WITH_COUPON;
+            } else {
+                return RENT_SUCCESS;
+            }
+        } else if (wishBook instanceof CartoonBook) {
+            CartoonBook cartoonBook = (CartoonBook) wishBook;
+            // 연령제한을 확인
+            if (bookUser.getAge() >= cartoonBook.getAccessAge()) {
+                // 빌릴 수 있는 경우
+                return RENT_SUCCESS;
+            } else {
+                return RENT_FAIL;
+            }
+        }
+        return RENT_FAIL;
     }
 
 }
