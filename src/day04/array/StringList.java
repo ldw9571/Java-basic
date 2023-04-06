@@ -27,6 +27,7 @@ public class StringList {
     public int size() {
         return sArr.length;
     }
+
     // 배열에 맨 끝에 데이터를 추가하는 기능
     public void push(String newData) {
         String[] temp = new String[sArr.length + 1];
