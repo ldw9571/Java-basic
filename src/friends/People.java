@@ -59,4 +59,25 @@ public class People {
         return waitListNames;
     }
 
+    // 팔로잉 목록에서 닉네임들을 보여주는 기능
+    public List<String> showFollowings() {
+        // 팔로워대기목록 사람들 닉네임만 저장할 리스트
+        List<String> waitListNames = new ArrayList<>();
+        for (People people : followings) {
+            waitListNames.add(people.nickName);
+        }
+        return waitListNames;
+    }
+
+    // 맞팔 여부 확인
+    public boolean isMatch(People opponent) {
+        if (
+                this.followings.contains(opponent)
+            &&  opponent.followings.contains(this)
+        ) {
+            return true;
+        }
+        return false;
+    }
+
 }
