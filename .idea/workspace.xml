@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b872ce2-4d43-4fe9-85e6-f1310087279c" name="Changes" comment="# 예외처리">
+    <list default="true" id="6b872ce2-4d43-4fe9-85e6-f1310087279c" name="Changes" comment="# 컬렉션">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day10/collection/song/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day10/collection/song/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,26 +85,13 @@
       <recent name="day10.generic" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.day10.collection.song.Main">
+  <component name="RunManager" selected="애플리케이션.Test">
     <configuration name="ListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day10.collection.list.ListExample" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day10.collection.list.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day10.generic.Main" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day10.generic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,6 +125,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="friends.Test" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="friends.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="day10.collection.song.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day10.collection.song.Main" />
       <module name="java_basic" />
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Test" />
         <item itemvalue="애플리케이션.day10.collection.song.Main" />
         <item itemvalue="애플리케이션.MapExample" />
         <item itemvalue="애플리케이션.SetExample" />
         <item itemvalue="애플리케이션.ListExample" />
-        <item itemvalue="애플리케이션.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -316,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680832580831</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="# 컬렉션">
+      <created>1680848725778</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1680848725778</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -351,7 +359,8 @@
     <MESSAGE value="# 도서관리 프로그램 3 - 대여기능" />
     <MESSAGE value="# 추상클래스, 인터페이스, 가수관리프로그램" />
     <MESSAGE value="# 예외처리" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 예외처리" />
+    <MESSAGE value="# 컬렉션" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 컬렉션" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
