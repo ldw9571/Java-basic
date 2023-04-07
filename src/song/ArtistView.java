@@ -1,7 +1,5 @@
 package song;
 
-import day07.util.Utility;
-
 import static day07.util.Utility.*;
 
 public class ArtistView {

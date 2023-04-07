@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b872ce2-4d43-4fe9-85e6-f1310087279c" name="Changes" comment="# 도서관리 프로그램 3 - 대여기능">
+    <list default="true" id="6b872ce2-4d43-4fe9-85e6-f1310087279c" name="Changes" comment="# 추상클래스, 인터페이스, 가수관리프로그램">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day04/array/StringList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day04/array/StringList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/poly/car/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/poly/car/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/song/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/song/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/song/ArtistView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/song/ArtistView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +43,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/.jdks/corretto-11.0.18/lib/src.zip!/java.base/java/io/InputStream.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://$USER_HOME$/.jdks/corretto-11.0.18/lib/src.zip!/java.base/java/lang/ArrayIndexOutOfBoundsException.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/corretto-11.0.18/lib/src.zip!/java.base/java/lang/String.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/corretto-11.0.18/lib/src.zip!/java.base/java/lang/System.java" root0="SKIP_INSPECTION" />
     <setting file="jar://$USER_HOME$/.jdks/corretto-11.0.18/lib/src.zip!/java.base/java/util/ArrayList.java" root0="SKIP_INSPECTION" />
@@ -74,13 +73,13 @@
       <recent name="day05.member" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.song.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.abs.Main" />
+  <component name="RunManager" selected="애플리케이션.UserMain">
+    <configuration name="FinallyExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exception.FinallyExample" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.abs.*" />
+          <option name="PATTERN" value="day10.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.poly.book.Run" />
+    <configuration name="ThrowsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exception.ThrowsMain" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.poly.book.*" />
+          <option name="PATTERN" value="day10.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="song.Test" />
+    <configuration name="TryExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exception.TryExample1" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="song.*" />
+          <option name="PATTERN" value="day10.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day09.quiz.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.quiz.Main" />
+    <configuration name="TryExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exception.TryExample2" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.quiz.*" />
+          <option name="PATTERN" value="day10.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="song.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="song.Main" />
+    <configuration name="UserMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.exception.UserMain" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="song.*" />
+          <option name="PATTERN" value="day10.exception.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.song.Main" />
-        <item itemvalue="애플리케이션.Test" />
-        <item itemvalue="애플리케이션.day09.quiz.Main" />
-        <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.Run" />
+        <item itemvalue="애플리케이션.UserMain" />
+        <item itemvalue="애플리케이션.ThrowsMain" />
+        <item itemvalue="애플리케이션.FinallyExample" />
+        <item itemvalue="애플리케이션.TryExample2" />
+        <item itemvalue="애플리케이션.TryExample1" />
       </list>
     </recent_temporary>
   </component>
@@ -292,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680739267386</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="# 추상클래스, 인터페이스, 가수관리프로그램">
+      <created>1680769764409</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1680769764409</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -325,7 +331,8 @@
     <MESSAGE value="# 도서관리 프로그램 1 - 마이페이지 기능" />
     <MESSAGE value="# 도서관리 프로그램 2 - 전체조회, 검색" />
     <MESSAGE value="# 도서관리 프로그램 3 - 대여기능" />
-    <option name="LAST_COMMIT_MESSAGE" value="# 도서관리 프로그램 3 - 대여기능" />
+    <MESSAGE value="# 추상클래스, 인터페이스, 가수관리프로그램" />
+    <option name="LAST_COMMIT_MESSAGE" value="# 추상클래스, 인터페이스, 가수관리프로그램" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
