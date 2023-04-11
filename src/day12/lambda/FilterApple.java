@@ -44,10 +44,13 @@ public class FilterApple {
         return filteredApples;
     }
 
-
     /**
      * @solution - try 3 : 동작을 파라미터화 한다.
      *                      - 추상적 조건으로 필터링
+     *
+     * @problem
+     * - 오렌지바구니를 필터링해야한다면?
+     * - 전자제품바구니를 필터링해야된다면?
      */
     public static List<Apple> filterApples(List<Apple> basket, ApplePredicate p) {
         // 특정 색상 사과만 담을 바구니
@@ -61,6 +64,18 @@ public class FilterApple {
         return filteredApples;
     }
 
+    /**
+     * @solution - try 4 : 제네릭 필터 메서드 생성
+     */
+    public static <T> List<T> filter(List<T> basket, GenericPredicate<T> p) {
+        List<T> filterList = new ArrayList<>();
+        for (T t : basket) {
+            if (p.test(t)) {
+                filterList.add(t);
+            }
+        }
+        return filterList;
+    }
 
 
 }

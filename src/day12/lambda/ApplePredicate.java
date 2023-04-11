@@ -1,5 +1,6 @@
 package day12.lambda;
 
+@FunctionalInterface
 // 사과를 필터링할 추상적 명세서
 public interface ApplePredicate {
 
