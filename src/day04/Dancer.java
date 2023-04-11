@@ -1,8 +1,11 @@
 package day04;
 
+import day12.inner.AddCalculator;
+
 // 댄서의 설계도
 // 설계도에는 main을 만들지 않습니다.
 public class Dancer {
+
 
     // 속성 (필드)
     String dancerName; // 댄서 이름
