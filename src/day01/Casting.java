@@ -6,7 +6,6 @@ public class Casting {
 
         byte a = 100;
         int b = a;
-
         //
         // +8 :  00001000
         // 1의보수 변환 : 비트 반전
