@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b872ce2-4d43-4fe9-85e6-f1310087279c" name="Changes" comment="new branch">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="6b872ce2-4d43-4fe9-85e6-f1310087279c" name="Changes" comment="230727 ignore">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/programing/java_basic",
+    "last_opened_file_path": "C:/programing/airSamjo",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
@@ -407,7 +406,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690104987312</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="230727 ignore">
+      <created>1690448071433</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1690448071433</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -422,7 +428,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="# 스트링배열리스트" />
     <MESSAGE value="# this, 멤버관리 앱" />
     <MESSAGE value="# 멤버관리 앱, 조회 기능 완성" />
     <MESSAGE value="# 멤버관리 앱 비밀번호 수정기능" />
@@ -447,7 +452,8 @@
     <MESSAGE value="# stream filtering, mapping, finding" />
     <MESSAGE value="java 공부 시작" />
     <MESSAGE value="new branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="new branch" />
+    <MESSAGE value="230727 ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="230727 ignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -29,7 +29,6 @@ public class DataType {
         // 논리타입
         boolean b1 = true;
         boolean b2 = false;
-
         boolean b3 = TRUE;
 
 
